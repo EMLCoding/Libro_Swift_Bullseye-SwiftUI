@@ -11,6 +11,7 @@
 		CB057DFD25F12E3300754F3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB057DFC25F12E3300754F3F /* ContentView.swift */; };
 		CB057DFF25F12E3500754F3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB057DFE25F12E3500754F3F /* Assets.xcassets */; };
 		CB057E0225F12E3500754F3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB057E0125F12E3500754F3F /* Preview Assets.xcassets */; };
+		CB0AB94725F177C200EAA8A7 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0AB94625F177C200EAA8A7 /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		CB057DFE25F12E3500754F3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB057E0125F12E3500754F3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CB057E0325F12E3500754F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB0AB94625F177C200EAA8A7 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +54,10 @@
 		CB057DF925F12E3300754F3F /* Bullseye SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				CB0AB94625F177C200EAA8A7 /* AboutView.swift */,
+				CB057DFE25F12E3500754F3F /* Assets.xcassets */,
 				CB057DFA25F12E3300754F3F /* Bullseye_SwiftUIApp.swift */,
 				CB057DFC25F12E3300754F3F /* ContentView.swift */,
-				CB057DFE25F12E3500754F3F /* Assets.xcassets */,
 				CB057E0325F12E3500754F3F /* Info.plist */,
 				CB057E0025F12E3500754F3F /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB057DFD25F12E3300754F3F /* ContentView.swift in Sources */,
+				CB0AB94725F177C200EAA8A7 /* AboutView.swift in Sources */,
 				CB057DFB25F12E3300754F3F /* Bullseye_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
